@@ -37,14 +37,14 @@
         },
       ];
       ```
-  The Function should generate an Array of Objects that contain only the `id` and `title` key/value pairs. You may assume that `id`, when existing, is an integer greater than 0. Here are the rules:
+    The Function should generate an Array of Objects that contain only the `id` and `title` key/value pairs. You may assume that `id`, when existing, is an integer greater than 0. Here are the rules:
 
-  Keep only releases that have both `id` and `title` data present.
-  Keep only the `id` and `title` data for each release.
+    Keep only releases that have both `id` and `title` data present.
+    Keep only the `id` and `title` data for each release.
 
-      ```javascript
-      processReleaseData(newReleases); // [{ id: 70111470, title: 'Die Hard'}, { id: 675465, title: 'Fracture' }];
-      ```
+        ```javascript
+        processReleaseData(newReleases); // [{ id: 70111470, title: 'Die Hard'}, { id: 675465, title: 'Fracture' }];
+        ```
 
 2. Write a Function named `octalToDecimal` that performs octal to decimal conversion. When invoked on a String that contains the representation of an octal number, the Function returns a decimal version of that value as a Number. Implement the conversion yourself: do not use something else to perform the conversion for you. Check out [this video](https://www.youtube.com/watch?v=YCM2JReWS10)
 
