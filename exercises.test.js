@@ -51,7 +51,7 @@ test('Question 2: octalToDecimal', () => {
 // Question 3
 test('Question 3: anagram', () => {
   expect(exercises.anagram('listen', ['enlists', 'google', 'inlets', 'banana'])).toEqual([ "inlets" ]);
-  expect(exercises.anagram('listen', ['enlist', 'google', 'inlets', 'banana'])).toBe([ "enlist", "inlets" ]);
+  expect(exercises.anagram('listen', ['enlist', 'google', 'inlets', 'banana'])).toEqual([ "enlist", "inlets" ]);
 });
 
 // Question 4
