@@ -55,7 +55,7 @@
       octalToDecimal('130');         // 88
       octalToDecimal('17');          // 15
       octalToDecimal('2047');        // 1063
-      octalToDecimal('011');         // 9
+      octalToDecimal('11');         // 9
       ```
 
 3. Write a Function named `anagram` that takes two arguments: a word and an array of words. Your function should return an array that contains all the words from the array argument that are anagrams of the word argument. For example, given the word "listen" and an array of candidate words like "enlist", "google", "inlets", and "banana", the program should return an array that contains "enlist" and "inlets".
