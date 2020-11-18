@@ -7,8 +7,8 @@ function processReleaseData(newReleases) {
 
 // The input number is actually a string, you can iterate through the string backwards
 // Use parseInt() to convert a string digit into a number value
-// Think about what variables you need to establsh outside the loop
-// Each iteration, you should be multiplying a digit with 8 to some power and add that to a running sum
+// Outside the loop, you might need to create a power varible to keep track of what 8's digit you're on.
+// Each iteration, you should be multiplying a digit with 8^power and add that to a running sum
 function octalToDecimal(numberString) {
   let value = 0;
   let place = 0;
