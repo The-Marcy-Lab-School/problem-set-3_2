@@ -7,8 +7,16 @@ function processReleaseData(newReleases) {
 
 // The input number is actually a string, you can iterate through the string backwards
 // Use parseInt() to convert a string digit into a number value
-// Outside the loop, you might need to create a power varible to keep track of what 8's digit you're on.
-// Each iteration, you should be multiplying a digit with 8^power and add that to a running sum
+// Outside the loop, you might need to create a varible to keep track of what 8's digit you're on.
+// Each iteration, you should be multiplying the digit by 8 to some power and add that to a running sum
+/*
+Example: "624"
+Iterate through this number 3 times (one for each digit), starting with the last digit and moving left
+Loop 1: "4" should be converted to 4. Mulitple 4 with 8 to the 0 power: (4 * 8^0 = 4)
+Loop 2: "2" should be converted to 2. Multiple 2 with 8 to the 1 power: (2 * 8^1 = 16)
+Loop 3: "6" should be converted to 6. Multiple 6 with 8 to the 2 power: (6 * 8^2 = 384)
+The answer is 4 + 16 + 384 = 404
+*/
 function octalToDecimal(numberString) {
   let value = 0;
   let place = 0;
