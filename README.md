@@ -1,5 +1,4 @@
-# Problem Set 3.2
-## List Processing and Higher-Order Array Methods
+# Problem Set: Unit 3 PEADAC Practice
 
 ### Directions
 1. Clone this lab
