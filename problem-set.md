@@ -1,5 +1,4 @@
-# Problem Set 3.2
-## Additional Practice with Higher-Order Array Methods and List Processing
+# Problem Set 3: PEDAC
 
 1. Write a Function named `processReleaseData` that processes the following movie release data:
 
