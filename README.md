@@ -1,4 +1,4 @@
-# Problem Set: Unit 3 PEADAC Practice
+# Problem Set: Unit 3 PEDAC Practice
 
 ### Directions
 1. Clone this lab
