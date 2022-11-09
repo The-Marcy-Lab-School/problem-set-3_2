@@ -76,7 +76,7 @@
       triangle(50, 50, 50);       // "invalid"
       ```
 
-5. Write a function that takes a year as an argument, and returns the number of 'Friday the 13ths' in that year. You may assume that the year is greater than 1752 (when the modern Gregorian Calendar was adopted by the United Kingdom). You may also assume that the same calendar will remain in use for the foreseeable future. **Note:** You may need to review [this article](https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript) on the `Date` object from [Lesson 2.6](https://github.com/The-Marcy-Lab-School/se-unit-2/tree/master/lesson-6-objects)
+5. Write a function that takes a year as an argument, and returns the number of 'Friday the 13ths' in that year. You may assume that the year is greater than 1752 (when the modern Gregorian Calendar was adopted by the United Kingdom). You may also assume that the same calendar will remain in use for the foreseeable future. **Note:** You may need to review [this article](https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript) on the `Date` object.
 
       Examples:
       ```javascript
